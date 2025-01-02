@@ -1,0 +1,67 @@
+body {
+  font-family: "Inter", serif;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+    min-width: 375px;
+    max-width: 1440px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 1em;
+    margin-top: 5em;
+    padding: 1.7em;
+}
+
+#logo {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 7em;
+    padding: 30px;
+}
+
+h1, a, p {
+    color: hsl(0, 0%, 100%);
+    margin: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+#description {
+    margin: 2em 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    margin: 16px;
+}
+
+.attribution {
+    padding: 2em;
+}
