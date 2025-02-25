@@ -62,10 +62,23 @@ li {
     margin: 16px;
     opacity: 0.6;
     transition: 0.3s;
+    cursor: pointer;
 }
 
-li:hover {opacity: 1}
+li:hover {
+  opacity: 1;
+  background-color: hsl(75, 94%, 57%);
+}
+
+li:hover a {
+  color: hsl(0, 0%, 12%);
+}
 
 .attribution {
     padding: 2em;
+    color: hsl(75, 94%, 57%);
+}
+
+.attribution a {
+  color: hsl(0, 0%, 100%);
 }
